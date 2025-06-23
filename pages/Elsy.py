@@ -9,7 +9,7 @@ intents = {
     'farewell': ["goodbye",'goodnight','sleep','bye'],
     'business': ["tamara's",'do','business'],
     'procedure': ['how does it work','recommend'],
-    'product inquiry': ['haircare','products','shampoo','conditioner','detanglers','oils','mousse'],
+    'product inquiry': ['haircare','products','shampoo','conditioner','detanglers','oils','mousse', 'product'],
     'product details': ['do','help with','sell','catalogue','contents','chemicals','recommendation'],
     'bookings': ['visit','order','pruchase','buy','treatment'],
     'hours': ['when','open'],
