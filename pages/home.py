@@ -31,7 +31,7 @@ st.markdown("""
 st.markdown("""
     <div style='margin-top: 40px; text-align: center;'>
         <h4 style='font-family: "Playfair Display", serif; color: #4B0082;'>Visit Us Today at Moi Avenue, Kilele Mall, Nairobi 💖</h4>
-        <a href='/Elsy' target = '_self' style='background-color: #003366; color: white; padding: 10px 25px; text-decoration: none; border-radius: 5px; font-size: 18px;'>Chat with Elsa🤖</a>
+        <a href='/Elsy' target = '_self' style='background-color: #003366; color: white; padding: 10px 25px; text-decoration: none; border-radius: 5px; font-size: 18px;'>Chat with Elsa👽</a>
     </div>
 """, unsafe_allow_html=True)
 

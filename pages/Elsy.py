@@ -20,9 +20,9 @@ intents = {
 
 
 responses = {
-    'greeting': "Hi, I'm Elsy 🤖. Welcome to Tamara's Hair! What can I help you with today? 😊",
+    'greeting': "Hi, I'm Elsy 👽. Welcome to Tamara's Hair! What can I help you with today? 😊",
 
-    'identification': "I'm Elsy 🤖, your virtual assistant at Tamara's Hair. How can I assist you today? 😊",
+    'identification': "I'm Elsy 👽, your virtual assistant at Tamara's Hair. How can I assist you today? 😊",
 
     'farewell': "Goodbye! You're always welcome back to Tamara's Hair — your one-stop shop for all your haircare needs. ✨",
 
