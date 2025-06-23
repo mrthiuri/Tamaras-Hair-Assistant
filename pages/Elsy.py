@@ -70,20 +70,20 @@ def match_intent(clean_input):
                 return intent
     return None
 
-st.title("💇🏾‍♀️Elsy- Your Haircare AI Assistant")
+st.title("💇🏾‍♀️Elsy- Your Haircare Assistant")
 
+# Initialize session state once
 if "messages" not in st.session_state:
-    st.session_state.messages = [{'role': 'assistant', 'content': responses['greeting']}]
+    st.session_state.messages = []
+if "greeted" not in st.session_state:
+    st.session_state.greeted = False
 
-for msg in st.session_state.messages:
-    with st.chat_message(msg['role']):
-        st.markdown(msg['content'])
+# Add greeting only once
+if not st.session_state.greeted:
+    st.session_state.messages.append({"role": "assistant", "content": responses["greeting"]})
+    st.session_state.greeted = True
 
-
-if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": responses["greeting"]}]
-
-# Display past chat messages
+# Display chat history
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
