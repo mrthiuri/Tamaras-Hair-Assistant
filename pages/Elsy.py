@@ -90,9 +90,9 @@ for msg in st.session_state.messages:
 
 # Chat input
 if prompt := st.chat_input("What would you like to know about our services..."):
-    # Append user message
+    clean = pre_process_text(prompt)
     st.chat_message("user").markdown(prompt)
-    st.session_state.messages.append({"role": "user", "content": prompt})
+    st.session_state.messages.append({"role": "user", "content": clean})
 
     # Process input
     clean = pre_process_text(prompt)
